@@ -8,6 +8,11 @@ ingredients = [
 
 def sandwich_request(ingredients, order) 
   # your code here!
+  if ingrdients << order
+    return true 
+  else
+    return false
+  end
 end
 
 # example city_info hash
